@@ -1,0 +1,84 @@
+/* Обгортка профілю */
+.profileCard {
+  margin: 20px auto;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  boxshadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Блок із даними користувача */
+.infoBlock {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Аватар */
+.infoBlock img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  background-color: #666;
+}
+
+/* Ім’я користувача */
+.userName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #000000;
+}
+
+/* Тег користувача */
+.userTag {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+/* Розташування */
+.userLocation {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+/* Список статистики */
+.statsList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+/* Елемент списку статистики */
+.statsItem {
+  text-align: center;
+  padding: 8px;
+  border-right: 1px solid #ddd;
+}
+
+/* Останній елемент без роздільника */
+.statsItem:last-child {
+  border-right: none;
+}
+
+/* Мітка статистики */
+.statsLabel {
+  display: block;
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+/* Значення статистики */
+.statsValue {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
